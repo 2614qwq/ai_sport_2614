@@ -10,8 +10,8 @@
 
 - **智能对话**：支持同步和流式（SSE）两种方式与 AI 助手对话
 - **RAG 知识库**：基于体育运动常见问题文档的知识库检索增强
-- **超级智能体**：集成 Manus 超级智能体，具备工具调用能力
-- **多模型支持**：支持阿里云通义千问（DashScope）和本地 Ollama 模型
+- **超级智能体**：参考 Manus 超级智能体的开发模式，具备工具调用能力
+- **模型支持**：支持阿里云通义千问（DashScope）
 - **API 文档**：集成 Knife4j/Swagger 在线 API 文档
 
 ## 🛠️ 技术栈
@@ -25,11 +25,7 @@
 - **Spring AI 1.0.0** - Spring AI 核心框架
 - **Spring AI Alibaba 1.0.0.2** - 阿里云 AI 集成
 - **DashScope SDK** - 阿里云通义千问大模型
-- **Ollama** - 本地大模型运行环境
-- **LangChain4J** - Java 版 LangChain
 
-### 向量数据库
-- **PGVector** - PostgreSQL 向量存储（可选）
 
 ### 工具库
 - **Jsoup** - HTML 解析
@@ -44,8 +40,6 @@
 
 - JDK 21 或更高版本
 - Maven 3.6+
-- （可选）PostgreSQL + PGVector 扩展
-- （可选）Ollama 本地模型服务
 - 阿里云 DashScope API Key
 
 
